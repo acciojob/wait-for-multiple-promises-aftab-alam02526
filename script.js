@@ -3,6 +3,7 @@
 const tbody = document.getElementById("output");
 
 const loadingRow = document.createElement("tr");
+loadingRow.id = "loading";
 loadingRow.innerHTML = `<td colspan="2" class="text-center">Loading...</td>`;
 tbody.appendChild(loadingRow);
 
